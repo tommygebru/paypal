@@ -1,0 +1,97 @@
+/**************** base layer ****************/
+/*background:rgba(0,0,0,.1);  color:#2d2f30;*/
+*{text-align:center; font-family: 'Source Sans Pro', sans-serif; letter-spacing:1.25px;}
+ul{margin-left:-20px;}
+.ul-1{text-transform:uppercase; list-style-type:none; font-size:.9em;}
+.ul-1 i{font-size:1.4em;}
+.ul-1 li{margin:0 30px; height:100%; padding:26px; border-bottom:2px solid transparent;}
+.ul-1 li:hover{border-bottom:2px solid white;}
+.ul-1 span li {padding:22px;}
+.flex{display:flex; justify-content:center; align-items:center;}
+.row{flex-direction:row;}
+.column{flex-direction:column;}
+.wrap{flex-wrap:wrap;}
+body{margin:0;}
+
+.btn-small{}
+.btn-large{}
+.btns-blue{}
+.btns-white{}
+/**************** top navigation ****************/
+.top-nav{width:100%; margin:0 auto; justify-content:space-around; height:70px; border-bottom: solid 1px #ccc; font-weight:400;}
+.top-nav .btns-wrap span{border: solid 1px; border-radius: 25px; padding:10px 15px; margin:0px; font-size:.7em;}
+.top-nav .btns-wrap span:last-child{background:white; color:#2d2f30;}
+.top-nav *{cursor:pointer;}
+/**************** banner ****************/
+
+.banner{height:600px; background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(paypal-banner.jpg) center center no-repeat; color:white; font-weight:200; justify-content:space-between;}
+.banner p{margin:30px auto; letter-spacing:1px;font-size:.85em; width:90%;}
+.banner-text{width:60%; margin:0 auto;}
+.banner h1{font-size:3em; font-weight:200;}
+.banner h2{margin:0; font-weight:200;} 
+.banner-text .btns-wrap{margin:30px 0;}
+.banner-text .btns-wrap div, .video div, .rpt-action{width:210px; height:20px; border: 1px solid; padding:15px 80px; margin:5px; border-radius:30px;}
+
+.banner-text .btns-wrap div:first-child{background:#0070ba; color:white; border-color:#0070ba;}
+.banner-text .btns-wrap div:first-child:hover{background:#026aaf; border-color:#026aaf; cursor:pointer;}
+.banner-text .btns-wrap div:last-child:hover{color:#dedede; cursor:pointer;}
+/**************** parent video ****************/
+.video{height:285px; width:100%; margin:0 auto; font-weight:200;}
+.video h2{width:56%; font-size:1.8em; font-weight:200;}
+.video div, .rpt-action{width: 150px;}
+.video div span{background:red; border-radius:50%; height:50px; width:50px;}
+.video i{color:blue;}
+
+
+/**************** PayPal guide ***************/
+.guide{padding-top:90px; background:#f7f9fa; letter-spacing:1px; font-size:.9em;}
+.guide p{letter-spacing:1px;}
+.drop-down{height:60px; width:100%;}
+.drop-down ul{color:#de0063; background:white; height:45px; margin:0 15px; padding:0 10px; box-shadow: 0px 2px 23px -4px rgba(0,0,0,0.17);}
+.drop-down ul i{margin:5px;}
+.svg-2, .guide .primary{width:100%; justify-content:space-around; margin:0 auto;}
+.svg-2{margin:-15px auto;}
+.guide .primary{margin:0px 0;}
+.guide .primary p{width:247px; margin:0;}
+.guide .primary .circled{border:solid 1px #ccc; border-radius:50%; height:45px; width:45px;}
+.guide .tertiary{margin:45px 0;}
+
+.guide .tertiary .rpt-action{background:#0070ba; color:white;}
+.guide .tertiary p{color:#0070ba; margin:0;}
+/**************** empty div ****************/
+.empty-div{height:400px; width:100%; background:#f7f9fa;}
+
+
+/**************** information ****************/
+.info{background:#009add; height:450px; box-shadow: inset 0px 2px 300px 34px rgba(0,50,137,1); font-weight:200;}
+.info h1 {font-size:2.5em; font-weight:200;}
+.info p{font-size:.9em; margin:0; text-align:left; line-height:22px;}
+.info h1, .info p, .info span{color:white;}
+.info .primary{justify-content:space-around; margin-top:30px;}
+.info .primary p{}
+.info .secondary{height:90px; width:340px; justify-content:flex-start; align-items:flex-start; text-align:left;}
+.info .secondary span {font-size:1.5em; font-weight:200;}
+.info .secondary .strong{font-weight:500; font-size:1em;}
+.info img{width:900px; margin-top:-400px;}
+
+
+/**************** business ****************/
+.business{font-weight:300;}
+.business .primary{height:420px; width:100%; background:white;}
+.business .primary h1{font-size:2.75em; font-weight:200;}
+.business span{padding:15px 0; width:300px; color:#0070ba;}
+.business .secondary{height:290px; width:100%; background:#f7f9fa;}
+.business .secondary h1{font-size:1.75em; font-weight:200;}
+.business .secondary span{background:#0070ba; color:white;}
+
+/**************** footer ****************/
+footer {color:#2d2f30;}
+footer img{width:30px;}
+.ul-2, .ul-3, .ul-4{list-style-type:none; cursor:pointer;}
+.ul-2 li:hover, .ul-3 li:hover, .ul-4 li:hover{text-decoration:underline;}
+.ul-2 li{margin:0 15px;}
+.ul-2 i{font-size:1.3em;}
+footer{height:145px;}
+footer .primary{font-weight:400; justify-content:space-between; margin:0 auto; width:90%; border-bottom:dotted 1px #ccc; color:#767676; font-size:.9em;}
+footer .secondary{justify-content:space-between; margin:0 auto; width:90%;font-size:.75em; color:#888;}
+footer .secondary ul li{margin:0 10px;}
